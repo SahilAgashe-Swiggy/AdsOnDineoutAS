@@ -1,1 +1,445 @@
-
+{
+    "tid": "e1c77368-94ca-442e-85d9-bec617c17955",
+    "sid": "mznb14c2-fc44-4ee7-9970-9e286330efbc",
+    "deviceId": "A22267BA-5506-4948-9649-55666AEF7C57",
+    "requestId": "f11492b1-3e32-4c97-b74a-c5033b620175",
+    "apiTime": "2025-09-21T09:05:23.181619641Z",
+    "jid": "mzk4705c-afc0-4b87-a6bd-51826929d1dc",
+    "encodedLocationCtx": "eyJjaXR5SWQiOiIxIiwiY2l0eU5hbWUiOiJCYW5nYWxvcmUiLCJ6b25lSWQiOiIiLCJnZW9ab25lSWRzIjpudWxsfQ\u003d\u003d",
+    "success": {
+        "statusMessage": "done successfully",
+        "pageOffset": {
+            "nextOffset": "CIu5ARCDuQEogJDr8ufBnbh9MNsyOAI\u003d",
+            "widgetOffset": {
+                "Native_Dineout_HomePage_MastHead_Compound_Festive_With_Staggered_Chicklet_And_Lottie_Extension": "",
+                "dynamicActionInfo_V2": "",
+                "dynamicActionPill": "",
+                "New_DO_HomePage_Open_collection1_Title": "",
+                "Native_Dineout_HomePage_MastHead_Compound_With_Staggered_Chicklet_And_Lottie_Extension": "",
+                "Native_dineoutCuratedCollectionsMxN_New_HP": "",
+                "Native_dineoutCuratedCollectionsMxN_New_HP2": "",
+                "dineoutHomePayBillNearby_New_HP_V2": "",
+                "Native_Dineout_HomePage_MastHead_Compound_Festive_With_Staggered_Chicklet": "",
+                "New_DO_HomePage_Offerzone": "",
+                "ClusteredMastHeadBackgroundLayoutWidget_Dineout_New_HP": "",
+                "NewListingView_DineoutDynamicBottomBar": "",
+                "dineoutNewHPGrowthPrecursor_top": "",
+                "New_DO_HomePage_Open_collection1": "",
+                "Native_Dineout_HomePage_Top_Topical_Banner_Zone_New_HP_Copy": ""
+            }
+        },
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.Container",
+                        "id": "dineoutHomePayBillNearby_New_HP_V2",
+                        "header": {
+                            "title": "Top Chinese restaurants for you",
+                            "titleStyle": {
+                                "color": "text_color_high_emphasis",
+                                "font": "FONT_NAME_V2_BODY1_NEUTRAL_BOLD",
+                                "fontName": "FONT_NAME_V2_BODY1_NEUTRAL_BOLD"
+                            },
+                            "subtitleStyle": {
+                                "color": "text_color_high_emphasis",
+                                "font": "FONT_NAME_V2_BODY1_NEUTRAL_BOLD",
+                                "fontName": "FONT_NAME_V2_BODY1_NEUTRAL_BOLD"
+                            }
+                        },
+                        "background": {
+                            "lotteUrl": "https://dineout-media-assets.swiggy.com/dineout/rx-card/contextual_widgets_lottie_new.json",
+                            "image": "dineout/Dineoutsearch/srp_container_gradient.png",
+                            "frequencyCapping": 3,
+                            "imageTooltip": {
+                                "anchor": "anchor string",
+                                "image": "image url",
+                                "colour": "#FAF8FC",
+                                "width": 60,
+                                "height": 13
+                            }
+                        },
+                        "style": {
+                            "containerPadding": {
+                                "left": 0,
+                                "top": 0,
+                                "right": 0
+                            }
+                        },
+                        "animation": {
+                            "type": "ANIMATION_TYPE_ENTRY_PUSH_DOWN",
+                            "startDelay": 250,
+                            "duration": 100,
+                            "interpolator": "INTERPOLATOR_LINEAR"
+                        },
+                        "cards": [
+                            {
+                                "card": {
+                                    "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                                    "header": {
+                                        "headerStyling": {
+                                            "titleColor": "text_color_high_emphasis",
+                                            "subtitleColor": "text_color_high_emphasis",
+                                            "titleFontName": "FONT_NAME_V2_BODY1_NEUTRAL_BOLD",
+                                            "subtitleFontName": "FONT_NAME_V2_BODY1_NEUTRAL_BOLD"
+                                        }
+                                    },
+                                    "layout": {
+                                        "rows": 2,
+                                        "columns": 3,
+                                        "horizontalScrollEnabled": true,
+                                        "itemSpacing": 10,
+                                        "lineSpacing": 10,
+                                        "containerStyle": {
+                                            "containerPadding": {
+                                                "left": 0,
+                                                "right": 0,
+                                                "top": 0,
+                                                "bottom": 0
+                                            }
+                                        },
+                                        "widgetTheme": {
+                                            "defaultMode": {
+                                                "backgroundColour": "#00000000",
+                                                "theme": "THEME_TYPE_LIGHT"
+                                            },
+                                            "darkMode": {
+                                                "backgroundColour": "#00000000",
+                                                "theme": "THEME_TYPE_DARK"
+                                            }
+                                        }
+                                    },
+                                    "id": "dineoutHomePayBillNearby_New_HP_V2",
+                                    "gridElements": {
+                                        "infoWithStyle": {
+                                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GlobalAutoSuggestionList",
+                                            "suggestionList": [
+                                                {
+                                                    "suggestionType": "SUGGESTION_TYPE_DINEOUT_RESTAURANT",
+                                                    "text": "Jimi's Beer Cafe",
+                                                     "highlightedText": "{{Jimi}}s",
+                      				"highlightPreString": "{{",
+                      				"highlightPostString": "}}",
+                                                    "cloudinaryId": "v1661391179/i3makp7fbjkkio5y0ver.jpg",
+                                                    "location": "Indiranagar",
+                                                    "rating": "4.1",
+                                                    "cta": {
+                                                        "link": "swiggydiners://details/64284",
+                                                        "text": "Jimi's Beer Cafe",
+                                                        "type": "DEEPLINK"
+                                                    },
+                                                    "distance": "10.8 km",
+                                                    "offers": [
+                                                        {
+                                                            "text": "Flat 15% off",
+                                                            "logoCtx": {
+                                                                "logo": "dineout/search/as/Offers.png"
+                                                            },
+                                                            "textColour": "positive"
+                                                        }
+                                                    ],
+                                                    "restaurantId": "64284",
+                                                    "analytics": {
+                                                        "screenName": "DO-presearch",
+                                                        "context": "",
+                                                        "objectValue": "Jimi's Beer Cafe",
+                                                        "clickObjectName": "click-rx",
+                                                        "impressionObjectName": "impression-rx",
+                                                        "extraFields": {
+                                                            "offer": "",
+                                                            "distance": "",
+                                                            "entity_id": "",
+                                                            "rating": "",
+                                                            "isNPR": "",
+                                                            "requestId": "",
+                                                            "entity_type": "",
+                                                            "entity_name": "",
+                                                            "suggestionType": "",
+                                                            "query": "",
+                                                            "categoryPage": "",
+                                                            "tid": "",
+                                                            "widget_type": "",
+                                                            "widget_id": "",
+                                                            "RX_count": ""
+                                                        },
+                                                        "position": 1
+                                                    },
+                                                    "isPromoted": true
+                                                },
+                                                {
+                                                    "suggestionType": "SUGGESTION_TYPE_DINEOUT_RESTAURANT",
+                                                    "text": "Jimi's Beer Cafe",
+                                                    "cloudinaryId": "v1661391179/i3makp7fbjkkio5y0ver.jpg",
+                                                    "location": "Indiranagar",
+                                                    "rating": "4.1",
+                                                    "cta": {
+                                                        "link": "swiggydiners://details/64284",
+                                                        "text": "Jimi's Beer Cafe",
+                                                        "type": "DEEPLINK"
+                                                    },
+                                                    "distance": "10.8 km",
+                                                    "offers": [
+                                                        {
+                                                            "text": "Flat 15% off",
+                                                            "logoCtx": {
+                                                                "logo": "dineout/search/as/Offers.png"
+                                                            },
+                                                            "textColour": "positive"
+                                                        }
+                                                    ],
+                                                    "restaurantId": "64284",
+                                                    "analytics": {
+                                                        "screenName": "DO-presearch",
+                                                        "context": "",
+                                                        "objectValue": "Jimi's Beer Cafe",
+                                                        "clickObjectName": "click-rx-ad",
+                                                        "impressionObjectName": "impression-rx-ad",
+                                                        "extraFields": {
+                                                            "offer": "",
+                                                            "distance": "",
+                                                            "entity_id": "",
+                                                            "rating": "",
+                                                            "isNPR": "",
+                                                            "requestId": "",
+                                                            "entity_type": "",
+                                                            "entity_name": "",
+                                                            "suggestionType": "",
+                                                            "query": "",
+                                                            "categoryPage": "",
+                                                            "tid": "",
+                                                            "widget_type": "",
+                                                            "widget_id": "",
+                                                            "RX_count": ""
+                                                        },
+                                                        "position": 2
+                                                    },
+                                                    "isPromoted": true,
+                                                    "adTrackingId": "I'm Batman"
+                                                },
+                                                {
+                                                    "suggestionType": "SUGGESTION_TYPE_DINEOUT_RESTAURANT",
+                                                    "text": "Jimi's Beer Cafe",
+                                                    "cloudinaryId": "v1661391179/i3makp7fbjkkio5y0ver.jpg",
+                                                    "location": "Indiranagar",
+                                                    "rating": "4.1",
+                                                    "cta": {
+                                                        "link": "swiggydiners://details/64284",
+                                                        "text": "Jimi's Beer Cafe",
+                                                        "type": "DEEPLINK"
+                                                    },
+                                                    "distance": "10.8 km",
+                                                    "offers": [
+                                                        {
+                                                            "text": "Flat 15% off",
+                                                            "logoCtx": {
+                                                                "logo": "dineout/search/as/Offers.png"
+                                                            },
+                                                            "textColour": "positive"
+                                                        }
+                                                    ],
+                                                    "restaurantId": "64284",
+                                                    "analytics": {
+                                                        "screenName": "DO-presearch",
+                                                        "context": "",
+                                                        "objectValue": "Jimi's Beer Cafe",
+                                                        "clickObjectName": "click-rx-ad",
+                                                        "impressionObjectName": "impression-rx-ad",
+                                                        "extraFields": {
+                                                            "offer": "",
+                                                            "distance": "",
+                                                            "entity_id": "",
+                                                            "rating": "",
+                                                            "isNPR": "",
+                                                            "requestId": "",
+                                                            "entity_type": "",
+                                                            "entity_name": "",
+                                                            "suggestionType": "",
+                                                            "query": "",
+                                                            "categoryPage": "",
+                                                            "tid": "",
+                                                            "widget_type": "",
+                                                            "widget_id": "",
+                                                            "RX_count": ""
+                                                        },
+                                                        "position": 3
+                                                    },
+                                                    "isPromoted": true,
+                                                    "adTrackingId": "I'm Batman"
+                                                },
+                                                {
+                                                    "suggestionType": "SUGGESTION_TYPE_DINEOUT_RESTAURANT",
+                                                    "text": "Jimi's Beer Cafe",
+                                                    "cloudinaryId": "v1661391179/i3makp7fbjkkio5y0ver.jpg",
+                                                    "location": "Indiranagar",
+                                                    "rating": "4.1",
+                                                    "cta": {
+                                                        "link": "swiggydiners://details/64284",
+                                                        "text": "Jimi's Beer Cafe",
+                                                        "type": "DEEPLINK"
+                                                    },
+                                                    "distance": "10.8 km",
+                                                    "offers": [
+                                                        {
+                                                            "text": "Flat 15% off",
+                                                            "logoCtx": {
+                                                                "logo": "dineout/search/as/Offers.png"
+                                                            },
+                                                            "textColour": "positive"
+                                                        }
+                                                    ],
+                                                    "restaurantId": "64284",
+                                                    "analytics": {
+                                                        "screenName": "DO-presearch",
+                                                        "context": "",
+                                                        "objectValue": "Jimi's Beer Cafe",
+                                                        "clickObjectName": "click-rx",
+                                                        "impressionObjectName": "impression-rx",
+                                                        "extraFields": {
+                                                            "offer": "",
+                                                            "distance": "",
+                                                            "entity_id": "",
+                                                            "rating": "",
+                                                            "isNPR": "",
+                                                            "requestId": "",
+                                                            "entity_type": "",
+                                                            "entity_name": "",
+                                                            "suggestionType": "",
+                                                            "query": "",
+                                                            "categoryPage": "",
+                                                            "tid": "",
+                                                            "widget_type": "",
+                                                            "widget_id": "",
+                                                            "RX_count": ""
+                                                        },
+                                                        "position": 4
+                                                    }
+                                                },
+                                                {
+                                                    "suggestionType": "SUGGESTION_TYPE_DINEOUT_RESTAURANT",
+                                                    "text": "Jimi's Beer Cafe",
+                                                    "cloudinaryId": "v1661391179/i3makp7fbjkkio5y0ver.jpg",
+                                                    "location": "Indiranagar",
+                                                    "rating": "4.1",
+                                                    "cta": {
+                                                        "link": "swiggydiners://details/64284",
+                                                        "text": "Jimi's Beer Cafe",
+                                                        "type": "DEEPLINK"
+                                                    },
+                                                    "distance": "10.8 km",
+                                                    "offers": [
+                                                        {
+                                                            "text": "Flat 15% off",
+                                                            "logoCtx": {
+                                                                "logo": "dineout/search/as/Offers.png"
+                                                            },
+                                                            "textColour": "positive"
+                                                        }
+                                                    ],
+                                                    "restaurantId": "64284",
+                                                    "analytics": {
+                                                        "screenName": "DO-presearch",
+                                                        "context": "",
+                                                        "objectValue": "Jimi's Beer Cafe",
+                                                        "clickObjectName": "click-rx",
+                                                        "impressionObjectName": "impression-rx",
+                                                        "extraFields": {
+                                                            "offer": "",
+                                                            "distance": "",
+                                                            "entity_id": "",
+                                                            "rating": "",
+                                                            "isNPR": "",
+                                                            "requestId": "",
+                                                            "entity_type": "",
+                                                            "entity_name": "",
+                                                            "suggestionType": "",
+                                                            "query": "",
+                                                            "categoryPage": "",
+                                                            "tid": "",
+                                                            "widget_type": "",
+                                                            "widget_id": "",
+                                                            "RX_count": ""
+                                                        },
+                                                        "position": 5
+                                                    }
+                                                },
+                                                {
+                                                    "suggestionType": "SUGGESTION_TYPE_DINEOUT_RESTAURANT",
+                                                    "text": "Jimi's Beer Cafe",
+                                                    "cloudinaryId": "v1661391179/i3makp7fbjkkio5y0ver.jpg",
+                                                    "location": "Indiranagar",
+                                                    "rating": "4.1",
+                                                    "cta": {
+                                                        "link": "swiggydiners://details/64284",
+                                                        "text": "Jimi's Beer Cafe",
+                                                        "type": "DEEPLINK"
+                                                    },
+                                                    "distance": "10.8 km",
+                                                    "offers": [
+                                                        {
+                                                            "text": "Flat 15% off",
+                                                            "logoCtx": {
+                                                                "logo": "dineout/search/as/Offers.png"
+                                                            },
+                                                            "textColour": "positive"
+                                                        }
+                                                    ],
+                                                    "restaurantId": "64284",
+                                                    "analytics": {
+                                                        "screenName": "DO-presearch",
+                                                        "context": "",
+                                                        "objectValue": "Jimi's Beer Cafe",
+                                                        "clickObjectName": "click-rx",
+                                                        "impressionObjectName": "impression-rx",
+                                                        "extraFields": {
+                                                            "offer": "",
+                                                            "distance": "",
+                                                            "entity_id": "",
+                                                            "rating": "",
+                                                            "isNPR": "",
+                                                            "requestId": "",
+                                                            "entity_type": "",
+                                                            "entity_name": "",
+                                                            "suggestionType": "",
+                                                            "query": "",
+                                                            "categoryPage": "",
+                                                            "tid": "",
+                                                            "widget_type": "",
+                                                            "widget_id": "",
+                                                            "RX_count": ""
+                                                        },
+                                                        "position": 6
+                                                    }
+                                                }
+                                            ],
+                                            "style": {
+                                                "width": {
+                                                    "type": "TYPE_RELATIVE",
+                                                    "value": 0.67,
+                                                    "reference": "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH"
+                                                },
+                                                "height": {
+                                                    "type": "TYPE_RELATIVE",
+                                                    "value": 0.16,
+                                                    "reference": "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH"
+                                                }
+                                            },
+                                            "collectionId": "114373",
+                                            "widgetId": "dineoutHomePayBillNearby_New_HP_V2",
+                                            "cta": {
+                                                "link": "swiggydiners://collectiondetails/114377?metaMap\u003d%7B%22onlyWalkinOffers%22%3A%22true%22%7D",
+                                                "text": "View all",
+                                                "type": "DEEPLINK"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "nextFetch": 0
+    }
+}
